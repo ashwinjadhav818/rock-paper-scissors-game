@@ -28,6 +28,7 @@
 body {
    font-family: "Barlow Semi Condensed", sans-serif;
    background: radial-gradient(at top, var(--bg-grad-1), var(--bg-grad-2));
+   background-attachment: fixed;
    min-height: 100vh;
    text-transform: uppercase;
    color: var(--light-text);
@@ -269,7 +270,7 @@ body {
 
 /* ? Rules Button */
 .rules-btn {
-   position: absolute;
+   position: fixed;
    bottom: 2rem;
    right: 2rem;
    background: none;
@@ -291,7 +292,7 @@ body {
 
 /* ? Rules Modal */
 .modal {
-   position: absolute;
+   position: fixed;
    height: 100%;
    width: 100%;
    top: 0;
